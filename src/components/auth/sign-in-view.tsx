@@ -26,7 +26,7 @@ import { PendingLoader } from '@/components';
 
 const formSchema = z.object({
   email: z.string().email(),
-  password: z.string().min(1, { message: "Password is required"})
+  password: z.string().min(8, { message: "Password must be at least 8 characters long" })
 })
 
 const SignInView = () => {
@@ -182,7 +182,7 @@ const SignInView = () => {
         </CardContent>
       </Card>
 
-      <div className='text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a}:underline-offset-4'>
+      <div className='text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4'>
         By clicking continue, you agree to our <a href='#'>Terms of Service</a> and <a href='#'>Privacy Policy</a>
       </div>
     </div>
