@@ -5,6 +5,8 @@ import { HomeView } from "./home/home-view";
 import { DashboardSidebar } from "./dashboard/dashboard-sidebar";
 import { DashboardUserButton } from "./dashboard/dashboard-user-button";
 import { GeneratedAvatar } from "./generated-avatar";
+import { DashboardNavbar } from "./dashboard/dashboard-navbar";
+import { DashboardCommand } from "./dashboard/dashboard-command";
 
 export { 
     SignInView, 
@@ -13,5 +15,7 @@ export {
     HomeView,
     DashboardSidebar,
     DashboardUserButton,
-    GeneratedAvatar 
+    GeneratedAvatar,
+    DashboardNavbar,
+    DashboardCommand 
 };
