@@ -66,7 +66,7 @@ const DashboardUserButton = () => {
                         />
                     )}
 
-                    <div className="flex flex-col gap=0.5 text-left overflow-hidden flex-1 min-w-0">
+                    <div className="flex flex-col gap-0.5 text-left overflow-hidden flex-1 min-w-0">
                         <p className="text-sm truncate w-full">
                             {data.user.name}
                         </p>
@@ -91,7 +91,7 @@ const DashboardUserButton = () => {
                         </Button>
                         <Button
                             variant="outline"
-                            onClick={() => {}}
+                            onClick={onLogout}
                         >
                             <LogOutIcon className="size-4 text-black" />
                             Logout
@@ -117,7 +117,7 @@ const DashboardUserButton = () => {
                 />
             )}
 
-            <div className="flex flex-col gap=0.5 text-left overflow-hidden flex-1 min-w-0">
+            <div className="flex flex-col gap-0.5 text-left overflow-hidden flex-1 min-w-0">
                 <p className="text-sm truncate w-full">
                     {data.user.name}
                 </p>
