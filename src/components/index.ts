@@ -7,6 +7,9 @@ import { DashboardUserButton } from "./dashboard/dashboard-user-button";
 import { GeneratedAvatar } from "./generated-avatar";
 import { DashboardNavbar } from "./dashboard/dashboard-navbar";
 import { DashboardCommand } from "./dashboard/dashboard-command";
+import { AgentsView, AgentsViewLoading, AgentsViewError } from "./agents/agents-view";
+import { LoadingState } from "./loading";
+import { ErrorState } from "./error-state";
 
 export { 
     SignInView, 
@@ -17,5 +20,10 @@ export {
     DashboardUserButton,
     GeneratedAvatar,
     DashboardNavbar,
-    DashboardCommand 
+    DashboardCommand,
+    AgentsView,
+    AgentsViewLoading,
+    LoadingState,
+    ErrorState,
+    AgentsViewError 
 };
