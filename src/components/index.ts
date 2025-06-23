@@ -10,6 +10,7 @@ import { DashboardCommand } from "./dashboard/dashboard-command";
 import { AgentsView, AgentsViewLoading, AgentsViewError } from "./agents/agents-view";
 import { LoadingState } from "./loading";
 import { ErrorState } from "./error-state";
+import { ResponsiveDialog } from "./responsive-dialog";
 
 export { 
     SignInView, 
@@ -25,5 +26,6 @@ export {
     AgentsViewLoading,
     LoadingState,
     ErrorState,
-    AgentsViewError 
+    AgentsViewError,
+    ResponsiveDialog
 };
