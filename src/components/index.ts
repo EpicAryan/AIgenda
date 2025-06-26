@@ -11,6 +11,8 @@ import { AgentsView, AgentsViewLoading, AgentsViewError } from "./agents/agents-
 import { LoadingState } from "./loading";
 import { ErrorState } from "./error-state";
 import { ResponsiveDialog } from "./responsive-dialog";
+import { AgentsListHeader } from "./agents/agents-list-header";
+import { NewAgentsDialog } from "./agents/agents-dialog";
 
 export { 
     SignInView, 
@@ -27,5 +29,7 @@ export {
     LoadingState,
     ErrorState,
     AgentsViewError,
-    ResponsiveDialog
+    ResponsiveDialog,
+    AgentsListHeader,
+    NewAgentsDialog
 };
