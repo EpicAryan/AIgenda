@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aigenda
 
-## Getting Started
+A modern, AI-powered meeting management platform built with Next.js, featuring intelligent agents, video calling capabilities, and automated meeting transcription.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **AI-Powered Agents**: Create and manage intelligent AI agents for automated meeting assistance
+- **Video Calling**: Integrated video calling with real-time communication via Stream Video SDK
+- **Meeting Management**: Schedule, track, and manage meetings with automatic status updates
+- **Automated Transcription**: AI-powered meeting transcription and summarization
+- **Authentication**: Secure user authentication with Better Auth
+- **Real-time Updates**: Live data updates with React Query and tRPC
+- **Responsive Design**: Mobile-first design with Tailwind CSS
+- **Database**: PostgreSQL database with Drizzle ORM for efficient data management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- **Next.js 15** - React framework with App Router
+- **React 19** - UI library with concurrent features
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Headless UI components for accessibility
+- **Lucide React** - Beautiful icons
+- **Sonner** - Toast notifications
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel...
+### Backend & API
+- **tRPC** - End-to-end typesafe APIs
+- **Drizzle ORM** - TypeScript ORM for PostgreSQL
+- **Better Auth** - Authentication library
+- **React Query** - Server state management
+- **Zod** - Schema validation
 
-## Learn More
+### Database & Infrastructure
+- **PostgreSQL** - Primary database
+- **Vercel** - Deployment platform
+- **ngrok** - Webhook testing (development)
 
-To learn more about Next.js, take a look at the following resources:
+### AI & Real-time
+- **Stream Video SDK** - Video calling and real-time communication
+- **OpenAI Real-time API** - AI-powered features
+- **DiceBear** - Avatar generation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
+- Node.js 18.x or higher
+- npm, yarn, pnpm, or bun
+- PostgreSQL database
 
-## Deploy on Vercel
+### Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.
