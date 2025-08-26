@@ -52,7 +52,7 @@ A modern, AI-powered meeting management platform built with Next.js, featuring i
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/aigenda.git
+   git clone https://github.com/EpicAryan/aigenda.git
    cd aigenda
    ```
 
@@ -202,7 +202,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you encounter any issues or have questions:
-- Open an issue on [GitHub](https://github.com/your-username/aigenda/issues)
+- Open an issue on [GitHub](https://github.com/EpicAryan/aigenda/issues)
 - Check the [documentation](https://docs.aigenda.com) (if available)
 
 ---
